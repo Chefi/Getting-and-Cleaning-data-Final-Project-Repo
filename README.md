@@ -5,8 +5,8 @@ Data were taken from the test and training of human physical activity records on
 Data were obtained from information provided by accelerometers in Galaxy S smartphones.
 
 IMPORTANT: this script uses the libraries:
-reshape2 
-stringr
+* reshape2 
+* stringr
 
 This script reads the files: 
 features.txt 
