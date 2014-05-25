@@ -5,30 +5,30 @@ Data were taken from the test and training of human physical activity records on
 Data were obtained from information provided by accelerometers in Galaxy S smartphones.
 
 IMPORTANT: this script uses the libraries:
-reshape2 
-stringr
+* reshape2 
+* stringr
 
 This script reads the files: 
-features.txt 
-X_train.txt 
-X_test 
-activity_labels.txt 
-y_train.txt 
+* features.txt 
+* X_train.txt 
+* X_test 
+* activity_labels.txt 
+* y_train.txt 
 y_test.txt 
-subject_train.txt
-subject_test.txt 
+* subject_train.txt
+* subject_test.txt 
 
 
 Located within the folder: UCI Dataset HAR
 
-features.txt presents the name of 561 features defined in this study.
-X_train.txt presents the results of measurements of 561 features for each subject in training.
-X_test.txt presents the results of measurements of 561 features for each subject in testing.
-activity_labels.txt describes the names or labels of 6 activities developed by each subject in this experiment.
-y_train.txt describes the names or labels of the activities of each of the subjects in training
-y_test.txt describes the names or labels of the activities of each of the subjects in testing
-subject_train.txt identifies the subject developing each training activity
-subject_test.txt identifies the subject developing each testing activity
+* features.txt presents the name of 561 features defined in this study.
+* X_train.txt presents the results of measurements of 561 features for each subject in training.
+* X_test.txt presents the results of measurements of 561 features for each subject in testing.
+* activity_labels.txt describes the names or labels of 6 activities developed by each subject in this experiment.
+* y_train.txt describes the names or labels of the activities of each of the subjects in training
+* y_test.txt describes the names or labels of the activities of each of the subjects in testing
+* subject_train.txt identifies the subject developing each training activity
+* subject_test.txt identifies the subject developing each testing activity
  
 The script creates datasets for training and testing and extracts only the measures for mean 
 and standard deviations for each measure of the original data
