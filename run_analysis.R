@@ -85,7 +85,7 @@ dataMelt_train <- melt(X_train, id=c("subject", "activity"), measure.vars = feat
 # calculate mean of train and test data for each combination of activity and for each subject using dcast function
 
 pryData_train_mean <- dcast(dataMelt_train, activity*subject ~ variable, mean) 
-pryData_test_mean <- dcast(dataMelt_test, activity*subject ~ variable, mean) # calcula para cada combinacion de activity y subject el valor del promedio de la variable seleccionada antes
+pryData_test_mean <- dcast(dataMelt_test, activity*subject ~ variable, mean)
 
 # Select the "mean" columns and rename the labels with more readable names in training data
 
