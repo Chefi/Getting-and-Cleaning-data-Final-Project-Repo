@@ -53,6 +53,15 @@ with the extensions .Train and . Test for training and testing features.
 The file "means_ttotal.txt" in the main directory stores the tidy data set with the averages of each variable 
 for each activiyy and each subject
 
+To verify, the following values were obtained for some of the averages:
+
+* df_train_mean[df_train_mean$subject=="25" & df_train_mean$activity=="WALKING_UPSTAIRS","Frequencydomain.BodyAcceleration.std.Y"]= -0.1999884
+
+* df_train_mean[df_train_mean$subject=="25" & df_train_mean$activity=="WALKING","Frequencydomain.BodyAcceleration.Average.Y"] = -0.2518803
+* df_train_mean[df_train_mean$subject=="22" & df_train_mean$activity=="WALKING","Frequencydomain.BodyAcceleration.std.X"] = 0.02439582
+* df_train_mean[df_train_mean$subject=="1" & df_train_mean$activity=="WALKING","Timedomain.BodyAcceleration.Average.X"] = 0.2773308
+
+
 
 
 
